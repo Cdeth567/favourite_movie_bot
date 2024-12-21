@@ -4,7 +4,7 @@ from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types import InlineKeyboardMarkup
 from keyboards import kb
 
-bot = Bot(token='6288021917:AAHgqNbuWdQxZzXyph3LU36f3n5E-mGYl3w', parse_mode=types.ParseMode.HTML)
+bot = Bot(token='', parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
 logging.basicConfig(level=logging.INFO)
 
